@@ -2,7 +2,7 @@
 
 A fun live Slack bot with lots of features! Greg is a multifunctional bot with interactive commands for entertainment, randomness, utilities, games, and a little bit of chaos. 🗿
 
-**[Try Greg!](YOUR_SLACK_INVITE_LINK_HERE)**
+**[Try Greg!](https://hackclub.enterprise.slack.com/archives/C0BTKND8W0M)**
 
 ## What is this about?
 
@@ -113,5 +113,8 @@ Planned improvements include:
 Made by **pyromaniac404** 🚀
 
 Built as part of my **Hack Club Stardance** project.
+## credits 
+CHATGPT __to help me with deploying a time based weather reporter with funfacts command for greg
+and fixing the bugs with the rock paper scissor gamer
 
 **Greg is watching. 👁️**
