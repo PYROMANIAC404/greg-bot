@@ -182,7 +182,7 @@ app.command("/greg-excuses", async ({ ack, respond }) => {
     "I opened one tab and somehow ended up with 47.",
     "My brain said 'later' and never followed up.",
     "I was busy staring at the wall and thinking about the universe.",
-    "My mouse stopped believing in me.",
+    "My mouse stopped believing in me.(I don't know why either)",
     "I needed a strategic recharge.",
     "I accidentally took a tactical nap.",
     "My phone demanded my attention.",
@@ -483,6 +483,28 @@ app.command("/greg-weather", async ({ ack, respond, command }) => {
   }
 });
 
+app.command("/greg-roll", async ({ ack, respond, command }) => {
+  await ack();
+
+  const result = Math.floor(Math.random() * 6) + 1;
+
+  const reactions = {
+    1: "💀 Greg rolled a 1. That's rough.",
+    2: "😐 Greg rolled a 2. Could've been worse.",
+    3: "🗿 Greg rolled a 3. Perfectly average.",
+    4: "😎 Greg rolled a 4. Not bad.",
+    5: "🔥 Greg rolled a 5. NICE.",
+    6: "🏆 GREG ROLLED A 6!!! ABSOLUTE CINEMA."
+  };
+
+  await respond({
+    text:
+      `🎲 *GREG'S DICE ROLLER*\n\n` +
+      `You rolled: *${result}*\n` +
+      `${reactions[result]}`
+  });
+});
+
 app.command("/greg-flip", async ({ ack, respond, command }) => {
   await ack();
 
@@ -559,9 +581,10 @@ app.command("/greg-help", async ({ ack, respond }) => {
 /greg-joke - Get a random joke(s)
 /greg-8ball - Ask the magic 8-ball a question (greg decides your fate)
 /greg-space - Get a random space fact(s)
-/greg-weather [location] - Get the current weather for a location
+/greg-weather [location] - Get the current weather for a location 
 /greg-fortune - Get a random fortune from greg(greg is a psychic)
 /greg-achievements - Check your achievements(*drumroll* tropies against greg)
+/greg-roll - rolls a six-sided die
 /greg-help - Show this help message(idk why you would need it but ok)`
   });
 });
