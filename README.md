@@ -30,7 +30,6 @@ Some of the commands include:
 - `/greg-ping` — See if Greg is alive
 - `/greg-weather` — Get weather information
 - `/greg-flip` — Flip a coin
-- `/greg-roll` — Roll a die
 - `/greg-rps` — Play Rock Paper Scissors
 - `/greg-8ball` — Ask Greg a question
 - `/greg-fortune` — Get a random fortune
