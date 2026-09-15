@@ -1,5 +1,4 @@
-# Greg 🤖
-ai has been used to help me with debugging rest all was learened from yt and the internet
+# Greg 
 
 Greg is a little Slack bot I made using VS Code, Node.js and Slack Bolt.
 
