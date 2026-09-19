@@ -6,7 +6,7 @@ The idea was pretty simple at first: make a bot that could do random fun stuff i
 
 Now Greg can play Rock Paper Scissors, tell jokes, check the weather, flip coins, roll dice, give random fortunes, show space stuff, and keep track of achievements.
 
-**[Try Greg!](https://hackclub.enterprise.slack.com/archives/C0BTKND8W0M)**
+**[Try Greg!](https://app.slack.com/client/E09V59WQY1E/C0P5NE354)**
 
 ## What is Greg?
 
